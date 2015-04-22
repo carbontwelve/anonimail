@@ -1,7 +1,7 @@
-<?php namespace Carbontwelve\Connectors;
+<?php namespace Carbontwelve\Anonimail\Connectors;
 
+use Carbontwelve\Anonimail\ConnectionInterface;
 use GuzzleHttp\Exception\RequestException;
-use Carbontwelve\ConnectionInterface;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Client;
 

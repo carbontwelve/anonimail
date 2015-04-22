@@ -1,4 +1,4 @@
-<?php namespace Carbontwelve\Api;
+<?php namespace Carbontwelve\Anonimail\Api;
 
 class Mailinator extends Api
 {

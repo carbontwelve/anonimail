@@ -1,4 +1,4 @@
-<?php namespace Carbontwelve;
+<?php namespace Carbontwelve\Anonimail;
 
 interface ConnectionInterface
 {

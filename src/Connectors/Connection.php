@@ -1,4 +1,4 @@
-<?php namespace Carbontwelve\Connectors;
+<?php namespace Carbontwelve\Anonimail\Connectors;
 
 abstract class Connection
 {

@@ -1,15 +1,20 @@
 {
-    "name": "carbontwelve/anonimail",
-    "description": "A simple guzzle based library for connecting with anonymous mail services",
-    "require": {
-        "guzzlehttp/guzzle": "~5"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Simon Dann",
-            "email": "simon.dann@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "carbontwelve/anonimail",
+  "description": "A simple guzzle based library for connecting with anonymous mail services",
+  "require": {
+    "guzzlehttp/guzzle": "~5"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simon Dann",
+      "email": "simon.dann@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Carbontwelve\\Anonimail\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
 }

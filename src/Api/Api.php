@@ -1,4 +1,6 @@
-<?php namespace Carbontwelve\Api;
+<?php namespace Carbontwelve\Anonimail\Api;
+
+use Carbontwelve\Anonimail\ConnectionInterface;
 
 abstract class Api
 {
@@ -19,8 +21,13 @@ abstract class Api
     protected $apiKey     = '';
 
     /**
-     * @var \Carbontwelve\ConnectionInterface
+     * @var \Carbontwelve\Anonimail\ConnectionInterface
      */
     protected $connection;
+
+    public function __construct( ConnectionInterface $connection )
+    {
+        $this->connection = $connection;
+    }
 
 }
