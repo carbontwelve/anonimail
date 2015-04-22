@@ -7,6 +7,4 @@ interface ApiInterface
 
     public function checkEmail();
 
-
-
 }
