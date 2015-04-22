@@ -1,14 +1,21 @@
 {
   "name": "carbontwelve/anonimail",
   "description": "A simple guzzle based library for connecting with anonymous mail services",
+  "keywords": ["email", "anonymous", "guzzle", "GuerrillaMail", "Mailinator"],
   "require": {
+    "php": ">=5.4.0",
     "guzzlehttp/guzzle": "~5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.3",
+    "phpmd/phpmd": "~2.2"
   },
   "license": "MIT",
   "authors": [
     {
       "name": "Simon Dann",
-      "email": "simon.dann@gmail.com"
+      "email": "simon.dann@gmail.com",
+      "role": "Developer"
     }
   ],
   "autoload": {
