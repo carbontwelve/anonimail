@@ -2,7 +2,7 @@
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/carbontwelve/anonimail/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/carbontwelve/anonimail/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/carbontwelve/anonimail/badges/build.png?b=master)](https://scrutinizer-ci.com/g/carbontwelve/anonimail/build-status/master)
-
+[![Build Status](https://travis-ci.org/carbontwelve/anonimail.svg)](https://travis-ci.org/carbontwelve/anonimail)
 
 A simple [guzzle](https://github.com/guzzle/guzzle) based library for connecting with anonymous mail services.
 
