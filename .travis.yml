@@ -11,8 +11,8 @@ before_script:
   - composer install --no-interaction --prefer-source --dev -o
 
 script:
-  - php vendor/bin/phpunit --coverage-text
-  - php vendor/bin/phpmd ./src text design,unusedcode
+  - ./vendor/bin/phpunit --coverage-text
+  - ./vendor/bin/phpmd ./src text design,unusedcode
 
 matrix:
   allow_failures:
