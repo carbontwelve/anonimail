@@ -4,6 +4,8 @@
 [![Build Status](https://scrutinizer-ci.com/g/carbontwelve/anonimail/badges/build.png?b=master)](https://scrutinizer-ci.com/g/carbontwelve/anonimail/build-status/master)
 [![Build Status](https://travis-ci.org/carbontwelve/anonimail.svg)](https://travis-ci.org/carbontwelve/anonimail)
 
+**Note**: This project is not dead, its just pending me finishing it :)
+
 A simple [guzzle](https://github.com/guzzle/guzzle) based library for connecting with anonymous mail services.
 
 Currently writing support for:
